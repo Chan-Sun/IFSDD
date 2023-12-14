@@ -13,7 +13,9 @@ This is the Pytorch inplementation of our paper:
 
 Defect detection is one of the most essential processes for industrial quality inspection. However, in Continuous Defect Detection (CDD), where defect categories and samples continually increase, the challenge of incremental few-shot defect detection remains unexplored. Current defect detection models fail to generalize to novel categories and suffer from catastrophic forgetting. To address these problems, this paper proposes an Incremental Knowledge Learning Framework (IKLF) for continuous defect detection. The proposed framework follows the pretrain-finetuning paradigm. To realize end-to-end fine-tuning for novel categories, an Incremental RCNN module is proposed to calculate cosine-similarity features of defects and decouple class-wise representations. What’s more, two incremental knowledge align losses are proposed to deal with catastrophic problems. The Feature Knowledge Align (FKA) loss is designed for class-agnostic feature maps, while the Logit Knowledge Align (LKA) loss is proposed for class-specific output logits. The combination of two align losses mitigates the catastrophic forgetting problem effectively. Experiments have been conducted on two real-world industrial inspection datasets (NEU-DET and DeepPCB). Results show that IKLF outperforms other methods on various incremental few-shot scenes, which proves the effectiveness of the proposed method.
 
-### Installation
+---
+
+### 1. Installation
 
 #### Prerequisites
 ```
@@ -25,19 +27,20 @@ MMRazor==0.2.0
 MMCV-full ==1.4.6
 MMDetection == 2.25.0
 ```
-### Installation
 
 For detailed procedure, please refer to [Installation](https://github.com/Chan-Sun/DKAN/blob/master/packages/README.md)
 
-### Data Preparation
+### 2. Data Preparation
 
-We use random seed 1~10 to generate the few-shot split label. They can be found in  `./dataset/fewshot-split`. You can also use `prepare_neu-det_voc_fewshot.py` to generate your own few-shot split.
+* We use random seed 1~10 to generate the few-shot split label. They can be found in  `./dataset/fewshot-split`. 
 
-Dwonload images from the following links:
+    You can also use `prepare_neu-det_voc_fewshot.py` to generate your own few-shot split.
+
+* Download images from the following links:
 [[NEU_DET]](https://www.kaggle.com/datasets/kaustubhdikshit/neu-surface-defect-database) 
 [[DeepPCB]](https://github.com/tangsanli5201/DeepPCB)
 
-Organize the `dataset` folder as following:
+* Organize the `dataset` folder as following:
 
 ```
 dataset
@@ -50,8 +53,9 @@ dataset
         ├── fewshot_split
         └── images
 ```
+### 3. Training
 
-### Single-GPU Train
+#### Single-GPU Train
 
 ```
 python ./train.py \
@@ -62,7 +66,7 @@ python ./train.py \
     --fs_setting SPLIT1_SEED1_5SHOT
 ```
 
-### Multi-GPU Train
+#### Multi-GPU Train
 
 ```
 CUDA_VISIBLE_DEVICES=your-gpu-ids bash ./shell/dist_train.sh \
@@ -73,7 +77,7 @@ CUDA_VISIBLE_DEVICES=your-gpu-ids bash ./shell/dist_train.sh \
     --fs_setting SPLIT1_SEED1_5SHOT
 ```
 
-### DeepPCB Results
+### 4. Results
 
 ![](./resources/results.png)
 
