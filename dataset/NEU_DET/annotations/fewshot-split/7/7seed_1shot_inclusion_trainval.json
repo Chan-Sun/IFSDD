@@ -1,0 +1,72 @@
+{
+    "images": [
+        {
+            "file_name": "inclusion_237.jpg",
+            "height": 200,
+            "width": 200,
+            "id": 454,
+            "negative": 0
+        }
+    ],
+    "annotations": [
+        {
+            "area": 1802,
+            "iscrowd": 0,
+            "image_id": 454,
+            "bbox": [
+                131,
+                146,
+                34,
+                53
+            ],
+            "category_id": 2,
+            "id": 1145,
+            "ignore": 0,
+            "negative": 0,
+            "segmentation": [
+                [
+                    131,
+                    146,
+                    131,
+                    199,
+                    165,
+                    199,
+                    165,
+                    146
+                ]
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 1,
+            "name": "crazing"
+        },
+        {
+            "supercategory": "none",
+            "id": 2,
+            "name": "inclusion"
+        },
+        {
+            "supercategory": "none",
+            "id": 3,
+            "name": "patches"
+        },
+        {
+            "supercategory": "none",
+            "id": 4,
+            "name": "pitted_surface"
+        },
+        {
+            "supercategory": "none",
+            "id": 5,
+            "name": "rolled-in_scale"
+        },
+        {
+            "supercategory": "none",
+            "id": 6,
+            "name": "scratches"
+        }
+    ]
+}

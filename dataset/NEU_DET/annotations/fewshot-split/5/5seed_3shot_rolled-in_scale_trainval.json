@@ -1,0 +1,140 @@
+{
+    "images": [
+        {
+            "file_name": "rolled-in_scale_138.jpg",
+            "height": 200,
+            "width": 200,
+            "id": 1244,
+            "negative": 0
+        },
+        {
+            "file_name": "rolled-in_scale_129.jpg",
+            "height": 200,
+            "width": 200,
+            "id": 1234,
+            "negative": 0
+        },
+        {
+            "file_name": "rolled-in_scale_240.jpg",
+            "height": 200,
+            "width": 200,
+            "id": 1358,
+            "negative": 0
+        }
+    ],
+    "annotations": [
+        {
+            "area": 9100,
+            "iscrowd": 0,
+            "image_id": 1244,
+            "bbox": [
+                71,
+                44,
+                65,
+                140
+            ],
+            "category_id": 5,
+            "id": 3032,
+            "ignore": 0,
+            "negative": 0,
+            "segmentation": [
+                [
+                    71,
+                    44,
+                    71,
+                    184,
+                    136,
+                    184,
+                    136,
+                    44
+                ]
+            ]
+        },
+        {
+            "area": 5959,
+            "iscrowd": 0,
+            "image_id": 1234,
+            "bbox": [
+                88,
+                34,
+                59,
+                101
+            ],
+            "category_id": 5,
+            "id": 3012,
+            "ignore": 0,
+            "negative": 0,
+            "segmentation": [
+                [
+                    88,
+                    34,
+                    88,
+                    135,
+                    147,
+                    135,
+                    147,
+                    34
+                ]
+            ]
+        },
+        {
+            "area": 11178,
+            "iscrowd": 0,
+            "image_id": 1358,
+            "bbox": [
+                58,
+                24,
+                81,
+                138
+            ],
+            "category_id": 5,
+            "id": 3261,
+            "ignore": 0,
+            "negative": 0,
+            "segmentation": [
+                [
+                    58,
+                    24,
+                    58,
+                    162,
+                    139,
+                    162,
+                    139,
+                    24
+                ]
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 1,
+            "name": "crazing"
+        },
+        {
+            "supercategory": "none",
+            "id": 2,
+            "name": "inclusion"
+        },
+        {
+            "supercategory": "none",
+            "id": 3,
+            "name": "patches"
+        },
+        {
+            "supercategory": "none",
+            "id": 4,
+            "name": "pitted_surface"
+        },
+        {
+            "supercategory": "none",
+            "id": 5,
+            "name": "rolled-in_scale"
+        },
+        {
+            "supercategory": "none",
+            "id": 6,
+            "name": "scratches"
+        }
+    ]
+}

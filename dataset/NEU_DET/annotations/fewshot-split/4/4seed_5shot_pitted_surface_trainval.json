@@ -1,0 +1,208 @@
+{
+    "images": [
+        {
+            "file_name": "pitted_surface_184.jpg",
+            "height": 200,
+            "width": 200,
+            "id": 995,
+            "negative": 0
+        },
+        {
+            "file_name": "pitted_surface_159.jpg",
+            "height": 200,
+            "width": 200,
+            "id": 967,
+            "negative": 0
+        },
+        {
+            "file_name": "pitted_surface_212.jpg",
+            "height": 200,
+            "width": 200,
+            "id": 1027,
+            "negative": 0
+        },
+        {
+            "file_name": "pitted_surface_136.jpg",
+            "height": 200,
+            "width": 200,
+            "id": 942,
+            "negative": 0
+        },
+        {
+            "file_name": "pitted_surface_58.jpg",
+            "height": 200,
+            "width": 200,
+            "id": 1155,
+            "negative": 0
+        }
+    ],
+    "annotations": [
+        {
+            "area": 37830,
+            "iscrowd": 0,
+            "image_id": 995,
+            "bbox": [
+                1,
+                1,
+                195,
+                194
+            ],
+            "category_id": 4,
+            "id": 2627,
+            "ignore": 0,
+            "negative": 0,
+            "segmentation": [
+                [
+                    1,
+                    1,
+                    1,
+                    195,
+                    196,
+                    195,
+                    196,
+                    1
+                ]
+            ]
+        },
+        {
+            "area": 32886,
+            "iscrowd": 0,
+            "image_id": 967,
+            "bbox": [
+                14,
+                9,
+                174,
+                189
+            ],
+            "category_id": 4,
+            "id": 2571,
+            "ignore": 0,
+            "negative": 0,
+            "segmentation": [
+                [
+                    14,
+                    9,
+                    14,
+                    198,
+                    188,
+                    198,
+                    188,
+                    9
+                ]
+            ]
+        },
+        {
+            "area": 36278,
+            "iscrowd": 0,
+            "image_id": 1027,
+            "bbox": [
+                4,
+                1,
+                187,
+                194
+            ],
+            "category_id": 4,
+            "id": 2677,
+            "ignore": 0,
+            "negative": 0,
+            "segmentation": [
+                [
+                    4,
+                    1,
+                    4,
+                    195,
+                    191,
+                    195,
+                    191,
+                    1
+                ]
+            ]
+        },
+        {
+            "area": 39203,
+            "iscrowd": 0,
+            "image_id": 942,
+            "bbox": [
+                1,
+                1,
+                199,
+                197
+            ],
+            "category_id": 4,
+            "id": 2531,
+            "ignore": 0,
+            "negative": 0,
+            "segmentation": [
+                [
+                    1,
+                    1,
+                    1,
+                    198,
+                    200,
+                    198,
+                    200,
+                    1
+                ]
+            ]
+        },
+        {
+            "area": 39203,
+            "iscrowd": 0,
+            "image_id": 1155,
+            "bbox": [
+                1,
+                1,
+                199,
+                197
+            ],
+            "category_id": 4,
+            "id": 2883,
+            "ignore": 0,
+            "negative": 0,
+            "segmentation": [
+                [
+                    1,
+                    1,
+                    1,
+                    198,
+                    200,
+                    198,
+                    200,
+                    1
+                ]
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 1,
+            "name": "crazing"
+        },
+        {
+            "supercategory": "none",
+            "id": 2,
+            "name": "inclusion"
+        },
+        {
+            "supercategory": "none",
+            "id": 3,
+            "name": "patches"
+        },
+        {
+            "supercategory": "none",
+            "id": 4,
+            "name": "pitted_surface"
+        },
+        {
+            "supercategory": "none",
+            "id": 5,
+            "name": "rolled-in_scale"
+        },
+        {
+            "supercategory": "none",
+            "id": 6,
+            "name": "scratches"
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "images": [
+        {
+            "file_name": "scratches_24.jpg",
+            "height": 200,
+            "width": 200,
+            "id": 1657,
+            "negative": 0
+        }
+    ],
+    "annotations": [
+        {
+            "area": 7683,
+            "iscrowd": 0,
+            "image_id": 1657,
+            "bbox": [
+                17,
+                1,
+                39,
+                197
+            ],
+            "category_id": 6,
+            "id": 3920,
+            "ignore": 0,
+            "negative": 0,
+            "segmentation": [
+                [
+                    17,
+                    1,
+                    17,
+                    198,
+                    56,
+                    198,
+                    56,
+                    1
+                ]
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 1,
+            "name": "crazing"
+        },
+        {
+            "supercategory": "none",
+            "id": 2,
+            "name": "inclusion"
+        },
+        {
+            "supercategory": "none",
+            "id": 3,
+            "name": "patches"
+        },
+        {
+            "supercategory": "none",
+            "id": 4,
+            "name": "pitted_surface"
+        },
+        {
+            "supercategory": "none",
+            "id": 5,
+            "name": "rolled-in_scale"
+        },
+        {
+            "supercategory": "none",
+            "id": 6,
+            "name": "scratches"
+        }
+    ]
+}

@@ -1,0 +1,212 @@
+{
+    "images": [
+        {
+            "file_name": "77000066.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 770
+        },
+        {
+            "file_name": "90100050.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 1334
+        },
+        {
+            "file_name": "12100010.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 292
+        },
+        {
+            "file_name": "50600022.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 6
+        },
+        {
+            "file_name": "20085025.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 231
+        },
+        {
+            "file_name": "20085086.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 963
+        },
+        {
+            "file_name": "00041104.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 900
+        },
+        {
+            "file_name": "00041018.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 502
+        },
+        {
+            "file_name": "20085047.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 203
+        },
+        {
+            "file_name": "13000121.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 1108
+        }
+    ],
+    "annotations": [
+        {
+            "area": 1254,
+            "image_id": 770,
+            "bbox": [
+                336,
+                94,
+                38,
+                33
+            ],
+            "category_id": 4,
+            "id": 5151
+        },
+        {
+            "area": 1258,
+            "image_id": 1334,
+            "bbox": [
+                162,
+                340,
+                34,
+                37
+            ],
+            "category_id": 4,
+            "id": 8924
+        },
+        {
+            "area": 1254,
+            "image_id": 292,
+            "bbox": [
+                176,
+                315,
+                38,
+                33
+            ],
+            "category_id": 4,
+            "id": 1981
+        },
+        {
+            "area": 1080,
+            "image_id": 6,
+            "bbox": [
+                380,
+                95,
+                36,
+                30
+            ],
+            "category_id": 4,
+            "id": 48
+        },
+        {
+            "area": 924,
+            "image_id": 231,
+            "bbox": [
+                121,
+                103,
+                33,
+                28
+            ],
+            "category_id": 4,
+            "id": 1590
+        },
+        {
+            "area": 960,
+            "image_id": 963,
+            "bbox": [
+                351,
+                497,
+                30,
+                32
+            ],
+            "category_id": 4,
+            "id": 6474
+        },
+        {
+            "area": 1015,
+            "image_id": 900,
+            "bbox": [
+                499,
+                431,
+                35,
+                29
+            ],
+            "category_id": 4,
+            "id": 6013
+        },
+        {
+            "area": 986,
+            "image_id": 502,
+            "bbox": [
+                88,
+                159,
+                34,
+                29
+            ],
+            "category_id": 4,
+            "id": 3398
+        },
+        {
+            "area": 990,
+            "image_id": 203,
+            "bbox": [
+                71,
+                609,
+                33,
+                30
+            ],
+            "category_id": 4,
+            "id": 1396
+        },
+        {
+            "area": 1102,
+            "image_id": 1108,
+            "bbox": [
+                235,
+                155,
+                38,
+                29
+            ],
+            "category_id": 4,
+            "id": 7423
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "open_circuit"
+        },
+        {
+            "id": 2,
+            "name": "short"
+        },
+        {
+            "id": 3,
+            "name": "mouse_bite"
+        },
+        {
+            "id": 4,
+            "name": "spur"
+        },
+        {
+            "id": 5,
+            "name": "spurious_copper"
+        },
+        {
+            "id": 6,
+            "name": "pin_hole"
+        }
+    ]
+}

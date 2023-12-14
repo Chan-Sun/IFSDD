@@ -1,0 +1,206 @@
+{
+    "images": [
+        {
+            "file_name": "12100145.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 1217
+        },
+        {
+            "file_name": "13000211.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 634
+        },
+        {
+            "file_name": "92000020.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 594
+        },
+        {
+            "file_name": "90100062.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 589
+        },
+        {
+            "file_name": "92000039.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 221
+        },
+        {
+            "file_name": "77000039.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 1111
+        },
+        {
+            "file_name": "20085011.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 1354
+        },
+        {
+            "file_name": "00041092.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 1407
+        },
+        {
+            "file_name": "00041128.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 411
+        }
+    ],
+    "annotations": [
+        {
+            "area": 837,
+            "image_id": 1217,
+            "bbox": [
+                431,
+                374,
+                31,
+                27
+            ],
+            "category_id": 4,
+            "id": 8147
+        },
+        {
+            "area": 1050,
+            "image_id": 634,
+            "bbox": [
+                149,
+                293,
+                35,
+                30
+            ],
+            "category_id": 4,
+            "id": 4267
+        },
+        {
+            "area": 1558,
+            "image_id": 594,
+            "bbox": [
+                249,
+                255,
+                41,
+                38
+            ],
+            "category_id": 4,
+            "id": 3998
+        },
+        {
+            "area": 1360,
+            "image_id": 589,
+            "bbox": [
+                130,
+                359,
+                34,
+                40
+            ],
+            "category_id": 4,
+            "id": 3964
+        },
+        {
+            "area": 1575,
+            "image_id": 221,
+            "bbox": [
+                161,
+                337,
+                35,
+                45
+            ],
+            "category_id": 4,
+            "id": 1527
+        },
+        {
+            "area": 1763,
+            "image_id": 1111,
+            "bbox": [
+                417,
+                270,
+                43,
+                41
+            ],
+            "category_id": 4,
+            "id": 7441
+        },
+        {
+            "area": 925,
+            "image_id": 1354,
+            "bbox": [
+                500,
+                225,
+                25,
+                37
+            ],
+            "category_id": 4,
+            "id": 9064
+        },
+        {
+            "area": 1024,
+            "image_id": 1407,
+            "bbox": [
+                335,
+                195,
+                32,
+                32
+            ],
+            "category_id": 4,
+            "id": 9414
+        },
+        {
+            "area": 1056,
+            "image_id": 411,
+            "bbox": [
+                485,
+                154,
+                32,
+                33
+            ],
+            "category_id": 4,
+            "id": 2782
+        },
+        {
+            "area": 864,
+            "image_id": 411,
+            "bbox": [
+                113,
+                64,
+                32,
+                27
+            ],
+            "category_id": 4,
+            "id": 2783
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "open_circuit"
+        },
+        {
+            "id": 2,
+            "name": "short"
+        },
+        {
+            "id": 3,
+            "name": "mouse_bite"
+        },
+        {
+            "id": 4,
+            "name": "spur"
+        },
+        {
+            "id": 5,
+            "name": "spurious_copper"
+        },
+        {
+            "id": 6,
+            "name": "pin_hole"
+        }
+    ]
+}

@@ -1,0 +1,212 @@
+{
+    "images": [
+        {
+            "file_name": "12300109.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 16
+        },
+        {
+            "file_name": "90100074.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 867
+        },
+        {
+            "file_name": "44000099.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 235
+        },
+        {
+            "file_name": "20085155.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 673
+        },
+        {
+            "file_name": "77000075.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 887
+        },
+        {
+            "file_name": "20085251.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 957
+        },
+        {
+            "file_name": "12100061.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 904
+        },
+        {
+            "file_name": "13000081.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 1057
+        },
+        {
+            "file_name": "12300118.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 884
+        },
+        {
+            "file_name": "12100149.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 326
+        }
+    ],
+    "annotations": [
+        {
+            "area": 1518,
+            "image_id": 16,
+            "bbox": [
+                260,
+                62,
+                46,
+                33
+            ],
+            "category_id": 6,
+            "id": 112
+        },
+        {
+            "area": 884,
+            "image_id": 867,
+            "bbox": [
+                328,
+                37,
+                26,
+                34
+            ],
+            "category_id": 6,
+            "id": 5799
+        },
+        {
+            "area": 1260,
+            "image_id": 235,
+            "bbox": [
+                40,
+                330,
+                35,
+                36
+            ],
+            "category_id": 6,
+            "id": 1621
+        },
+        {
+            "area": 676,
+            "image_id": 673,
+            "bbox": [
+                59,
+                31,
+                26,
+                26
+            ],
+            "category_id": 6,
+            "id": 4531
+        },
+        {
+            "area": 1353,
+            "image_id": 887,
+            "bbox": [
+                335,
+                218,
+                33,
+                41
+            ],
+            "category_id": 6,
+            "id": 5932
+        },
+        {
+            "area": 1332,
+            "image_id": 957,
+            "bbox": [
+                184,
+                544,
+                37,
+                36
+            ],
+            "category_id": 6,
+            "id": 6426
+        },
+        {
+            "area": 775,
+            "image_id": 904,
+            "bbox": [
+                112,
+                97,
+                25,
+                31
+            ],
+            "category_id": 6,
+            "id": 6048
+        },
+        {
+            "area": 1024,
+            "image_id": 1057,
+            "bbox": [
+                276,
+                419,
+                32,
+                32
+            ],
+            "category_id": 6,
+            "id": 7084
+        },
+        {
+            "area": 1073,
+            "image_id": 884,
+            "bbox": [
+                264,
+                130,
+                37,
+                29
+            ],
+            "category_id": 6,
+            "id": 5909
+        },
+        {
+            "area": 962,
+            "image_id": 326,
+            "bbox": [
+                329,
+                251,
+                26,
+                37
+            ],
+            "category_id": 6,
+            "id": 2218
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "open_circuit"
+        },
+        {
+            "id": 2,
+            "name": "short"
+        },
+        {
+            "id": 3,
+            "name": "mouse_bite"
+        },
+        {
+            "id": 4,
+            "name": "spur"
+        },
+        {
+            "id": 5,
+            "name": "spurious_copper"
+        },
+        {
+            "id": 6,
+            "name": "pin_hole"
+        }
+    ]
+}

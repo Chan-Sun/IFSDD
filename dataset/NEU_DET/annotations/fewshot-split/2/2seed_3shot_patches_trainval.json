@@ -1,0 +1,140 @@
+{
+    "images": [
+        {
+            "file_name": "crazing_152.jpg",
+            "height": 200,
+            "width": 200,
+            "id": 60,
+            "negative": 0
+        },
+        {
+            "file_name": "patches_160.jpg",
+            "height": 200,
+            "width": 200,
+            "id": 669,
+            "negative": 0
+        },
+        {
+            "file_name": "pitted_surface_161.jpg",
+            "height": 200,
+            "width": 200,
+            "id": 970,
+            "negative": 0
+        }
+    ],
+    "annotations": [
+        {
+            "area": 1120,
+            "iscrowd": 0,
+            "image_id": 60,
+            "bbox": [
+                156,
+                136,
+                35,
+                32
+            ],
+            "category_id": 3,
+            "id": 141,
+            "ignore": 0,
+            "negative": 0,
+            "segmentation": [
+                [
+                    156,
+                    136,
+                    156,
+                    168,
+                    191,
+                    168,
+                    191,
+                    136
+                ]
+            ]
+        },
+        {
+            "area": 2867,
+            "iscrowd": 0,
+            "image_id": 669,
+            "bbox": [
+                122,
+                139,
+                47,
+                61
+            ],
+            "category_id": 3,
+            "id": 1765,
+            "ignore": 0,
+            "negative": 0,
+            "segmentation": [
+                [
+                    122,
+                    139,
+                    122,
+                    200,
+                    169,
+                    200,
+                    169,
+                    139
+                ]
+            ]
+        },
+        {
+            "area": 20580,
+            "iscrowd": 0,
+            "image_id": 970,
+            "bbox": [
+                92,
+                1,
+                105,
+                196
+            ],
+            "category_id": 3,
+            "id": 2577,
+            "ignore": 0,
+            "negative": 0,
+            "segmentation": [
+                [
+                    92,
+                    1,
+                    92,
+                    197,
+                    197,
+                    197,
+                    197,
+                    1
+                ]
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 1,
+            "name": "crazing"
+        },
+        {
+            "supercategory": "none",
+            "id": 2,
+            "name": "inclusion"
+        },
+        {
+            "supercategory": "none",
+            "id": 3,
+            "name": "patches"
+        },
+        {
+            "supercategory": "none",
+            "id": 4,
+            "name": "pitted_surface"
+        },
+        {
+            "supercategory": "none",
+            "id": 5,
+            "name": "rolled-in_scale"
+        },
+        {
+            "supercategory": "none",
+            "id": 6,
+            "name": "scratches"
+        }
+    ]
+}

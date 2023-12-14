@@ -1,0 +1,72 @@
+{
+    "images": [
+        {
+            "file_name": "rolled-in_scale_239.jpg",
+            "height": 200,
+            "width": 200,
+            "id": 1356,
+            "negative": 0
+        }
+    ],
+    "annotations": [
+        {
+            "area": 4260,
+            "iscrowd": 0,
+            "image_id": 1356,
+            "bbox": [
+                68,
+                76,
+                60,
+                71
+            ],
+            "category_id": 5,
+            "id": 3257,
+            "ignore": 0,
+            "negative": 0,
+            "segmentation": [
+                [
+                    68,
+                    76,
+                    68,
+                    147,
+                    128,
+                    147,
+                    128,
+                    76
+                ]
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 1,
+            "name": "crazing"
+        },
+        {
+            "supercategory": "none",
+            "id": 2,
+            "name": "inclusion"
+        },
+        {
+            "supercategory": "none",
+            "id": 3,
+            "name": "patches"
+        },
+        {
+            "supercategory": "none",
+            "id": 4,
+            "name": "pitted_surface"
+        },
+        {
+            "supercategory": "none",
+            "id": 5,
+            "name": "rolled-in_scale"
+        },
+        {
+            "supercategory": "none",
+            "id": 6,
+            "name": "scratches"
+        }
+    ]
+}
