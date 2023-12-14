@@ -31,16 +31,24 @@ For detailed procedure, please refer to [Installation](https://github.com/Chan-S
 
 ### Data Preparation
 
-Dwonload the NEU-DET dataset from the [[Link]](https://www.kaggle.com/datasets/kaustubhdikshit/neu-surface-defect-database) and put them in the `./dataset/images` directory.  
+We use random seed 1~10 to generate the few-shot split label. They can be found in  `./dataset/fewshot-split`. You can also use `prepare_neu-det_voc_fewshot.py` to generate your own few-shot split.
 
-We use random seed 1~10 to generate the few-shot split label. They can be found in  `./dataset/fewshot-split` . 
+Dwonload images from the following links:
+[[NEU_DET]](https://www.kaggle.com/datasets/kaustubhdikshit/neu-surface-defect-database) 
+[[DeepPCB]](https://github.com/tangsanli5201/DeepPCB)
 
-You can also use `prepare_neu-det_voc_fewshot.py` to generate your own few-shot split.
+Organize the `dataset` folder as following:
+
 ```
 dataset
-├── annotations
-├── fewshot_split
-└── images
+    └──NEU_DET
+    |   ├── annotations
+    |   ├── fewshot_split
+    |   └── images  
+    └──NEU_DET
+        ├── annotations
+        ├── fewshot_split
+        └── images
 ```
 
 ### Single-GPU Train
@@ -65,7 +73,7 @@ CUDA_VISIBLE_DEVICES=your-gpu-ids bash ./shell/dist_train.sh \
     --fs_setting SPLIT1_SEED1_5SHOT
 ```
 
-### Results
+### DeepPCB Results
 
 ![](./resources/results.png)
 
