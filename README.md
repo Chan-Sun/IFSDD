@@ -1,6 +1,6 @@
 ## An Incremental Knowledge Learning Framework for Continuous Defect Detection
 
-This is the Pytorch inplementation of our paper:
+This is the Pytorch implementation of our paper:
 
 [IEEE TIM] **An Incremental Knowledge Learning Framework for Continuous Defect Detection** 
 
