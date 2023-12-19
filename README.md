@@ -70,7 +70,7 @@ python ./utils/initialize_bbox_head.py \
     --save-dir ./path/to/save/dir \
     --method random_init
 ```
-#### Single-GPU Train
+#### Single-GPU Fine-tuning
 
 ```
 python ./train.py \
@@ -81,7 +81,7 @@ python ./train.py \
     --fs_setting SPLIT1_SEED1_5SHOT
 ```
 
-#### Multi-GPU Train
+#### Multi-GPU Fine-tuning
 
 ```
 CUDA_VISIBLE_DEVICES=your-gpu-ids bash ./shell/dist_train.sh \
