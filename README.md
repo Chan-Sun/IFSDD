@@ -48,7 +48,7 @@ dataset
     |   ├── annotations
     |   ├── fewshot_split
     |   └── images  
-    └──NEU_DET
+    └──DeepPCB
         ├── annotations
         ├── fewshot_split
         └── images
