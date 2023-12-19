@@ -77,7 +77,7 @@ python ./train.py \
     ./config/fine_tune/dkan_fine_tuning.py \
     --work-dir ./work_dir \
     --gpu-ids 0 \
-    --defect NEU_DET \
+    --defect DeepPCB \
     --fs_setting SPLIT1_SEED1_5SHOT
 ```
 
@@ -88,7 +88,7 @@ CUDA_VISIBLE_DEVICES=your-gpu-ids bash ./shell/dist_train.sh \
     ./config/fine_tune/dkan_fine_tuning.py \
     2 \
     --work-dir ./work_dir \
-    --defect NEU_DET \
+    --defect DeepPCB \
     --fs_setting SPLIT1_SEED1_5SHOT
 ```
 
