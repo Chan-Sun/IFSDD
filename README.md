@@ -2,7 +2,7 @@
 
 This is the Pytorch implementation of our paper:
 
-[IEEE TIM] **An Incremental Knowledge Learning Framework for Continuous Defect Detection** 
+[IEEE TIM] [**An Incremental Knowledge Learning Framework for Continuous Defect Detection**](https://ieeexplore.ieee.org/document/10363216)
 
 [Chen Sun](https://www.researchgate.net/profile/Chen-Sun-58), [Liang Gao](https://scholar.google.com/citations?user=NqIi8_8AAAAJ&hl=zh-CN), [Xinyu Li](https://www.researchgate.net/profile/Xinyu-Li-35?_sg=HniCSh_9wETKrPDKowJTPZaQ0aUGSyNJMi7eFJiEjz28mrDoxMPCY8NyGfYH1ds2e7b_6O65-Ng0OjZMX-dOlz45r1KcD0tL), [Pai Zheng](https://scholar.google.com.hk/citations?user=gS7pL68AAAAJ&hl=en) and [Yiping Gao](https://www.researchgate.net/profile/Yiping-Gao?_sg=aWBg1PwHU21eb8tNH77N9_9eTPrCGiPdGQKS6saBwmoGk5BzLNteS0VLyLjjUVRLtowxSXVWylwWBNe4jOZtMt72s3WdeS-z) 
 
