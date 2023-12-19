@@ -99,3 +99,20 @@ CUDA_VISIBLE_DEVICES=your-gpu-ids bash ./shell/dist_train.sh \
 
 ![](./resources/visualization.png)
 
+### Citation
+If you find this project helpful for your research, please consider citing the following BibTeX entry.
+```
+@ARTICLE{IKLF,
+  author={Sun, Chen and Gao, Liang and Li, Xinyu and Zheng, Pai and Gao, Yiping},
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
+  title={An Incremental Knowledge Learning Framework for Continuous Defect Detection}, 
+  year={2023},
+  doi={10.1109/TIM.2023.3343768}}
+
+@article{sun2022new,
+  title={A new knowledge distillation network for incremental few-shot surface defect detection},
+  author={Sun, Chen and Gao, Liang and Li, Xinyu and Gao, Yiping},
+  journal={arXiv preprint arXiv:2209.00519},
+  year={2022}
+}
+```
