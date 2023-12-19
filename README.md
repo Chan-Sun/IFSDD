@@ -60,7 +60,7 @@ python ./train.py \
     ./config/base_train/frcn_r50_base_training.py \
     --work-dir ./work_dir \
     --gpu-ids 0 \
-    --defect NEU_DET \
+    --defect DeepPCB \
     --fs_setting SPLIT1_SEED1_5SHOT
 ```
 #### Prepare Weights for Fine-tuning
