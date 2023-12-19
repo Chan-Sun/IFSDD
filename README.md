@@ -54,7 +54,22 @@ dataset
         └── images
 ```
 ### 3. Training
-
+#### Pretrain
+```
+python ./train.py \
+    ./config/base_train/frcn_r50_base_training.py \
+    --work-dir ./work_dir \
+    --gpu-ids 0 \
+    --defect NEU_DET \
+    --fs_setting SPLIT1_SEED1_5SHOT
+```
+#### Prepare Weights for Fine-tuning
+```
+python ./utils/initialize_bbox_head.py \
+    ./path/to/the/checkpoint \
+    --save-dir ./path/to/save/dir \
+    --method random_init
+```
 #### Single-GPU Train
 
 ```

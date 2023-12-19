@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from mmrazor.models.builder import LOSSES
 from mmdet.models.losses import weighted_loss
+import torch
 
 from mmcv.cnn import MODELS
 from mmcv.runner import BaseModule
@@ -59,23 +60,7 @@ class MMFewShotArchitecture(BaseArchitecture):
 
 
 @LOSSES.register_module()
-class ICKLDivergence(nn.Module):
-    """A measure of how one probability distribution Q is different from a
-    second, reference probability distribution P.
-
-    Args:
-        tau (float): Temperature coefficient. Defaults to 1.0.
-        reduction (str): Specifies the reduction to apply to the loss:
-            ``'none'`` | ``'batchmean'`` | ``'sum'`` | ``'mean'``.
-            ``'none'``: no reduction will be applied,
-            ``'batchmean'``: the sum of the output will be divided by
-                the batchsize,
-            ``'sum'``: the output will be summed,
-            ``'mean'``: the output will be divided by the number of
-                elements in the output.
-            Default: ``'batchmean'``
-        loss_weight (float): Weight of loss. Defaults to 1.0.
-    """
+class LogitKnowAlignLoss(nn.Module):
 
     def __init__(
         self,
@@ -84,14 +69,11 @@ class ICKLDivergence(nn.Module):
         loss_weight=1.0,
         base_class = 3
     ):
-        super(ICKLDivergence, self).__init__()
+        super(LogitKnowAlignLoss, self).__init__()
         self.tau = tau
         self.loss_weight = loss_weight
         self.base_class = base_class
         accept_reduction = {'none', 'batchmean', 'sum', 'mean'}
-        assert reduction in accept_reduction, \
-            f'KLDivergence supports reduction {accept_reduction}, ' \
-            f'but gets {reduction}.'
         self.reduction = reduction
 
     def forward(self, preds_S, preds_T):
@@ -114,18 +96,39 @@ class ICKLDivergence(nn.Module):
 
         softmax_pred_T = F.softmax(preds_T / self.tau, dim=1)
         logsoftmax_preds_S = F.log_softmax(preds_s / self.tau, dim=1)
-        # logsoftmax_preds_SN = F.log_softmax(preds_SN / self.tau, dim=1)
         loss_base = (self.tau**2) * F.kl_div(
             logsoftmax_preds_S, softmax_pred_T, reduction=self.reduction)
-        # loss_novel = (self.tau**2) * F.kl_div(
-        #     logsoftmax_preds_SN, softmax_pred_T, reduction=self.reduction)
-        loss = loss_base#-loss_novel
+        loss = loss_base
         return self.loss_weight * loss
 
 @weighted_loss
 def mse_loss(pred, target):
     """Warpper of mse loss."""
     return F.mse_loss(pred, target, reduction='none')
+
+@MODELS.register_module()
+class FeatureKnowledgeAlignLoss(nn.Module):
+    def __init__(self, tau=1.0, loss_weight=1.0):
+        super(FeatureKnowledgeAlignLoss, self).__init__()
+        self.tau = tau
+        self.loss_weight = loss_weight
+
+    def forward(self, preds_S, preds_T):
+        assert preds_S.shape[-2:] == preds_T.shape[-2:]
+        N, C, H, W = preds_S.shape
+
+        softmax_pred_T = F.softmax(preds_T.view(-1, W * H) / self.tau, dim=1)
+
+        logsoftmax = torch.nn.LogSoftmax(dim=1)
+        loss = torch.sum(softmax_pred_T *
+                         logsoftmax(preds_T.view(-1, W * H) / self.tau) -
+                         softmax_pred_T *
+                         logsoftmax(preds_S.view(-1, W * H) / self.tau)) * (
+                             self.tau**2)
+
+        loss = self.loss_weight * loss / (C * N)
+
+        return loss
 
 @LOSSES.register_module()
 class MSELoss(nn.Module):

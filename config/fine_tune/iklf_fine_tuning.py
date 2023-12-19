@@ -12,7 +12,7 @@ split=1
 student = dict(
         init_cfg=dict(
             type='Pretrained',
-            checkpoint="/home/sunchen/Projects/KDTFA/weights/split_1/tfa_random_init_bbox_head.pth"
+            checkpoint="./tfa_random_init_bbox_head.pth"
         ),
         backbone=dict(frozen_stages=4),
         roi_head=dict(
@@ -26,9 +26,8 @@ student = dict(
 teacher = dict(        
         init_cfg=dict(
             type='Pretrained',
-            checkpoint="/home/sunchen/Projects/KDTFA/weights/split_1/tfa_random_init_bbox_head.pth"
+            checkpoint="./tfa_random_init_bbox_head.pth"
         ),
-        # backbone=dict(frozen_stages=4),
         roi_head=dict(
             bbox_head=dict(
                 num_classes=teacher_class,
@@ -54,7 +53,7 @@ distill_cfg = [
                 teacher_module='roi_head.bbox_head.fc_cls',
                 losses=[
                     dict(
-                        type='ICKLDivergence',
+                        type='LogitKnowAlignLoss',
                         name='loss_logits',
                         tau=tau,
                         loss_weight=0.01,
@@ -64,8 +63,8 @@ distill_cfg = [
             teacher_module = 'neck.fpn_convs.3.conv',
             losses=[
                 dict(
-                    type='ChannelWiseDivergence',
-                    name='loss_cw_fpn_3',
+                    type='FeatureKnowledgeAlignLoss',
+                    name='loss_fpn_3',
                     tau = tau,
                     loss_weight =weight)]),
             dict(
@@ -73,8 +72,8 @@ distill_cfg = [
             teacher_module = 'neck.fpn_convs.2.conv',
             losses=[
                 dict(
-                    type='ChannelWiseDivergence',
-                    name='loss_cw_fpn_2',
+                    type='FeatureKnowledgeAlignLoss',
+                    name='loss_fpn_2',
                     tau = tau,
                     loss_weight =weight)]),
             dict(
@@ -82,8 +81,8 @@ distill_cfg = [
             teacher_module = 'neck.fpn_convs.1.conv',
             losses=[
                 dict(
-                    type='ChannelWiseDivergence',
-                    name='loss_cw_fpn_1',
+                    type='FeatureKnowledgeAlignLoss',
+                    name='loss_fpn_1',
                     tau = tau,
                     loss_weight =weight)]),
             dict(
@@ -91,8 +90,8 @@ distill_cfg = [
             teacher_module = 'neck.fpn_convs.0.conv',
             losses=[
                 dict(
-                    type='ChannelWiseDivergence',
-                    name='loss_cw_fpn_0',
+                    type='FeatureKnowledgeAlignLoss',
+                    name='loss_fpn_0',
                     tau = tau,
                     loss_weight=weight)])
             ]  
