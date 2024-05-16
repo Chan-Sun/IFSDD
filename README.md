@@ -92,7 +92,12 @@ CUDA_VISIBLE_DEVICES=your-gpu-ids bash ./shell/dist_train.sh \
 
 ```
 commands are also provided in [train.sh](https://github.com/Chan-Sun/IFSDD/blob/main/shell/train.sh)
-### 4. Results
+### 4. Tools
+
+We provide several tools for result analysis and visualization.
+See [post_analysis.py](https://github.com/Chan-Sun/IFSDD/blob/master/utils/post_analysis.py)
+
+### 5. Results
 
 ![](./resources/results.png)
 
