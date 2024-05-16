@@ -9,7 +9,7 @@ This is the Pytorch implementation of our paper:
 
 <div align="center">
 <img src="https://github.com/Chan-Sun/IFSDD/blob/master/resources/framework.png" width="80%" height="auto">
-<div align>
+</div>
 
 ### Abstract
 
@@ -103,11 +103,11 @@ For confusion matrix generation, please refer to [mmdetection tools/analysis too
 ### 5. Results
 <div align="center">
 <img src="https://github.com/Chan-Sun/IFSDD/blob/master/resources/results.png" width="50%" height="auto">
-<div align>
+</div>
 
 <div align="center">
 <img src="https://github.com/Chan-Sun/IFSDD/blob/master/resources/visualization.png" width="50%" height="auto">
-<div align>
+</div>
 
 
 ### Citation
