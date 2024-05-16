@@ -7,7 +7,9 @@ This is the Pytorch implementation of our paper:
 [Chen Sun](https://www.researchgate.net/profile/Chen-Sun-58), [Liang Gao](https://scholar.google.com/citations?user=NqIi8_8AAAAJ&hl=zh-CN), [Xinyu Li](https://www.researchgate.net/profile/Xinyu-Li-35?_sg=HniCSh_9wETKrPDKowJTPZaQ0aUGSyNJMi7eFJiEjz28mrDoxMPCY8NyGfYH1ds2e7b_6O65-Ng0OjZMX-dOlz45r1KcD0tL), [Pai Zheng](https://scholar.google.com.hk/citations?user=gS7pL68AAAAJ&hl=en) and [Yiping Gao](https://www.researchgate.net/profile/Yiping-Gao?_sg=aWBg1PwHU21eb8tNH77N9_9eTPrCGiPdGQKS6saBwmoGk5BzLNteS0VLyLjjUVRLtowxSXVWylwWBNe4jOZtMt72s3WdeS-z) 
 
 
-![](./resources/framework.png)
+<div align="center">
+<img src="https://github.com/Chan-Sun/IFSDD/blob/master/resources/framework.png" width="80%" height="auto">
+<div align>
 
 ### Abstract
 
@@ -99,11 +101,14 @@ See [post_analysis.py](https://github.com/Chan-Sun/IFSDD/blob/master/utils/post_
 
 For confusion matrix generation, please refer to [mmdetection tools/analysis tools](https://github.com/open-mmlab/mmdetection/tree/main/tools/analysis_tools)
 ### 5. Results
+<div align="center">
+<img src="https://github.com/Chan-Sun/IFSDD/blob/master/resources/results.png" width="50%" height="auto">
+<div align>
 
-![](./resources/results.png)
+<div align="center">
+<img src="https://github.com/Chan-Sun/IFSDD/blob/master/resources/visualization.png" width="50%" height="auto">
+<div align>
 
-
-![](./resources/visualization.png)
 
 ### Citation
 If you find this project helpful for your research, please consider citing the following BibTeX entry.
