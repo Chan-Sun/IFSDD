@@ -94,9 +94,10 @@ CUDA_VISIBLE_DEVICES=your-gpu-ids bash ./shell/dist_train.sh \
 commands are also provided in [train.sh](https://github.com/Chan-Sun/IFSDD/blob/main/shell/train.sh)
 ### 4. Tools
 
-We provide several tools for result analysis and visualization.
+We provide scripts for result analysis and visualization.
 See [post_analysis.py](https://github.com/Chan-Sun/IFSDD/blob/master/utils/post_analysis.py)
 
+For confusion matrix generation, please refer to [mmdetection](https://github.com/open-mmlab/mmdetection/tree/main/tools/analysis_tools)
 ### 5. Results
 
 ![](./resources/results.png)
