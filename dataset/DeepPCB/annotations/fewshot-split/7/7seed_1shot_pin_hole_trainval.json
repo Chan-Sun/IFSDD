@@ -1,0 +1,50 @@
+{
+    "images": [
+        {
+            "file_name": "77000005.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 892
+        }
+    ],
+    "annotations": [
+        {
+            "area": 2304,
+            "image_id": 892,
+            "bbox": [
+                368,
+                504,
+                48,
+                48
+            ],
+            "category_id": 6,
+            "id": 5964
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "open_circuit"
+        },
+        {
+            "id": 2,
+            "name": "short"
+        },
+        {
+            "id": 3,
+            "name": "mouse_bite"
+        },
+        {
+            "id": 4,
+            "name": "spur"
+        },
+        {
+            "id": 5,
+            "name": "spurious_copper"
+        },
+        {
+            "id": 6,
+            "name": "pin_hole"
+        }
+    ]
+}

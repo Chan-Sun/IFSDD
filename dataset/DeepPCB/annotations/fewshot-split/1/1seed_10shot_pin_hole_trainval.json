@@ -1,0 +1,194 @@
+{
+    "images": [
+        {
+            "file_name": "20085251.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 957
+        },
+        {
+            "file_name": "20085293.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 1268
+        },
+        {
+            "file_name": "00041170.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 893
+        },
+        {
+            "file_name": "00041122.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 140
+        },
+        {
+            "file_name": "77000005.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 892
+        },
+        {
+            "file_name": "13000175.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 462
+        },
+        {
+            "file_name": "77000027.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 1233
+        }
+    ],
+    "annotations": [
+        {
+            "area": 1332,
+            "image_id": 957,
+            "bbox": [
+                184,
+                544,
+                37,
+                36
+            ],
+            "category_id": 6,
+            "id": 6426
+        },
+        {
+            "area": 754,
+            "image_id": 1268,
+            "bbox": [
+                80,
+                267,
+                29,
+                26
+            ],
+            "category_id": 6,
+            "id": 8493
+        },
+        {
+            "area": 1075,
+            "image_id": 893,
+            "bbox": [
+                153,
+                6,
+                43,
+                25
+            ],
+            "category_id": 6,
+            "id": 5972
+        },
+        {
+            "area": 1023,
+            "image_id": 140,
+            "bbox": [
+                68,
+                114,
+                31,
+                33
+            ],
+            "category_id": 6,
+            "id": 976
+        },
+        {
+            "area": 928,
+            "image_id": 140,
+            "bbox": [
+                288,
+                588,
+                29,
+                32
+            ],
+            "category_id": 6,
+            "id": 978
+        },
+        {
+            "area": 2304,
+            "image_id": 892,
+            "bbox": [
+                368,
+                504,
+                48,
+                48
+            ],
+            "category_id": 6,
+            "id": 5964
+        },
+        {
+            "area": 1404,
+            "image_id": 462,
+            "bbox": [
+                355,
+                201,
+                36,
+                39
+            ],
+            "category_id": 6,
+            "id": 3134
+        },
+        {
+            "area": 2915,
+            "image_id": 1233,
+            "bbox": [
+                222,
+                375,
+                53,
+                55
+            ],
+            "category_id": 6,
+            "id": 8248
+        },
+        {
+            "area": 910,
+            "image_id": 1233,
+            "bbox": [
+                93,
+                504,
+                35,
+                26
+            ],
+            "category_id": 6,
+            "id": 8250
+        },
+        {
+            "area": 1155,
+            "image_id": 1233,
+            "bbox": [
+                548,
+                558,
+                35,
+                33
+            ],
+            "category_id": 6,
+            "id": 8253
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "open_circuit"
+        },
+        {
+            "id": 2,
+            "name": "short"
+        },
+        {
+            "id": 3,
+            "name": "mouse_bite"
+        },
+        {
+            "id": 4,
+            "name": "spur"
+        },
+        {
+            "id": 5,
+            "name": "spurious_copper"
+        },
+        {
+            "id": 6,
+            "name": "pin_hole"
+        }
+    ]
+}

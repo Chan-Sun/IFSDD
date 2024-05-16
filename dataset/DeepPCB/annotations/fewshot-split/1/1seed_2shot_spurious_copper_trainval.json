@@ -1,0 +1,68 @@
+{
+    "images": [
+        {
+            "file_name": "00041025.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 1116
+        },
+        {
+            "file_name": "20085214.jpg",
+            "height": 640,
+            "width": 640,
+            "id": 453
+        }
+    ],
+    "annotations": [
+        {
+            "area": 1326,
+            "image_id": 1116,
+            "bbox": [
+                269,
+                364,
+                39,
+                34
+            ],
+            "category_id": 5,
+            "id": 7470
+        },
+        {
+            "area": 1008,
+            "image_id": 453,
+            "bbox": [
+                49,
+                64,
+                28,
+                36
+            ],
+            "category_id": 5,
+            "id": 3071
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "open_circuit"
+        },
+        {
+            "id": 2,
+            "name": "short"
+        },
+        {
+            "id": 3,
+            "name": "mouse_bite"
+        },
+        {
+            "id": 4,
+            "name": "spur"
+        },
+        {
+            "id": 5,
+            "name": "spurious_copper"
+        },
+        {
+            "id": 6,
+            "name": "pin_hole"
+        }
+    ]
+}

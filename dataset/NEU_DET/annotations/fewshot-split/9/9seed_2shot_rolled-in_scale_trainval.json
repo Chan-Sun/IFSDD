@@ -1,0 +1,106 @@
+{
+    "images": [
+        {
+            "file_name": "rolled-in_scale_243.jpg",
+            "height": 200,
+            "width": 200,
+            "id": 1361,
+            "negative": 0
+        },
+        {
+            "file_name": "rolled-in_scale_116.jpg",
+            "height": 200,
+            "width": 200,
+            "id": 1220,
+            "negative": 0
+        }
+    ],
+    "annotations": [
+        {
+            "area": 11786,
+            "iscrowd": 0,
+            "image_id": 1361,
+            "bbox": [
+                58,
+                26,
+                71,
+                166
+            ],
+            "category_id": 5,
+            "id": 3266,
+            "ignore": 0,
+            "negative": 0,
+            "segmentation": [
+                [
+                    58,
+                    26,
+                    58,
+                    192,
+                    129,
+                    192,
+                    129,
+                    26
+                ]
+            ]
+        },
+        {
+            "area": 4268,
+            "iscrowd": 0,
+            "image_id": 1220,
+            "bbox": [
+                81,
+                66,
+                44,
+                97
+            ],
+            "category_id": 5,
+            "id": 2984,
+            "ignore": 0,
+            "negative": 0,
+            "segmentation": [
+                [
+                    81,
+                    66,
+                    81,
+                    163,
+                    125,
+                    163,
+                    125,
+                    66
+                ]
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 1,
+            "name": "crazing"
+        },
+        {
+            "supercategory": "none",
+            "id": 2,
+            "name": "inclusion"
+        },
+        {
+            "supercategory": "none",
+            "id": 3,
+            "name": "patches"
+        },
+        {
+            "supercategory": "none",
+            "id": 4,
+            "name": "pitted_surface"
+        },
+        {
+            "supercategory": "none",
+            "id": 5,
+            "name": "rolled-in_scale"
+        },
+        {
+            "supercategory": "none",
+            "id": 6,
+            "name": "scratches"
+        }
+    ]
+}

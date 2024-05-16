@@ -1,0 +1,72 @@
+{
+    "images": [
+        {
+            "file_name": "crazing_148.jpg",
+            "height": 200,
+            "width": 200,
+            "id": 55,
+            "negative": 0
+        }
+    ],
+    "annotations": [
+        {
+            "area": 4698,
+            "iscrowd": 0,
+            "image_id": 55,
+            "bbox": [
+                4,
+                39,
+                81,
+                58
+            ],
+            "category_id": 1,
+            "id": 132,
+            "ignore": 0,
+            "negative": 0,
+            "segmentation": [
+                [
+                    4,
+                    39,
+                    4,
+                    97,
+                    85,
+                    97,
+                    85,
+                    39
+                ]
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 1,
+            "name": "crazing"
+        },
+        {
+            "supercategory": "none",
+            "id": 2,
+            "name": "inclusion"
+        },
+        {
+            "supercategory": "none",
+            "id": 3,
+            "name": "patches"
+        },
+        {
+            "supercategory": "none",
+            "id": 4,
+            "name": "pitted_surface"
+        },
+        {
+            "supercategory": "none",
+            "id": 5,
+            "name": "rolled-in_scale"
+        },
+        {
+            "supercategory": "none",
+            "id": 6,
+            "name": "scratches"
+        }
+    ]
+}

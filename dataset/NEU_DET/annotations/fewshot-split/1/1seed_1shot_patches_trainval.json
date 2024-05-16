@@ -1,0 +1,72 @@
+{
+    "images": [
+        {
+            "file_name": "pitted_surface_175.jpg",
+            "height": 200,
+            "width": 200,
+            "id": 985,
+            "negative": 0
+        }
+    ],
+    "annotations": [
+        {
+            "area": 1968,
+            "iscrowd": 0,
+            "image_id": 985,
+            "bbox": [
+                122,
+                152,
+                41,
+                48
+            ],
+            "category_id": 3,
+            "id": 2613,
+            "ignore": 0,
+            "negative": 0,
+            "segmentation": [
+                [
+                    122,
+                    152,
+                    122,
+                    200,
+                    163,
+                    200,
+                    163,
+                    152
+                ]
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "none",
+            "id": 1,
+            "name": "crazing"
+        },
+        {
+            "supercategory": "none",
+            "id": 2,
+            "name": "inclusion"
+        },
+        {
+            "supercategory": "none",
+            "id": 3,
+            "name": "patches"
+        },
+        {
+            "supercategory": "none",
+            "id": 4,
+            "name": "pitted_surface"
+        },
+        {
+            "supercategory": "none",
+            "id": 5,
+            "name": "rolled-in_scale"
+        },
+        {
+            "supercategory": "none",
+            "id": 6,
+            "name": "scratches"
+        }
+    ]
+}
